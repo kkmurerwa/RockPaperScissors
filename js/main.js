@@ -16,10 +16,8 @@ function playRound(player_selection, comp_selection){
         return "The game was a tie!"
     } else{
         if (item_index > 2){
-            console.log(combined_selection);
             return "You lost! " +comp_selection +" beats " +player_selection
         } else if (item_index <= 2){
-            console.log(combined_selection);
             return "You won! " +player_selection  +" beats " +comp_selection 
         } else {
             return "Invalid selection"
